@@ -1,0 +1,28 @@
+#header{
+    color: white;
+    background-color: #e74c3c;
+}
+
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: rgb(238, 187, 121);
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(226, 52, 52);
+    border: 1px solid rgb(221, 89, 89);
+    border-radius: 10px;
+}
+
+#menu li a:hover{
+    background-color: #e74c3c;
+}
