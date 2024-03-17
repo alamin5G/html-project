@@ -3,6 +3,10 @@
     background-color: #e74c3c;
 }
 
+#logo{
+    font-size: 2rem;
+}
+
 #menu{
     list-style: none;
     padding: 0;
@@ -25,4 +29,23 @@
 
 #menu li a:hover{
     background-color: #e74c3c;
+}
+
+#banner{
+    background: url(../images/banner.jpg) no-repeat 0 0;
+    background-size: cover;
+    position: stretch;
+}
+
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead{
+    color: white;
+    background: rgb(231, 76, 60, 0.7);
+}
 }
