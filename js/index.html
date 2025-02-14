@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../vite.svg" type="image/x-icon">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .completed{
+            text-decoration: line-through;
+            text-decoration-color: bisque;
+            text-shadow: 1px 1px 1px black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 id="todo-app-heading">Todo Application</h1>
+
+   
+
+<script>
+  
+  
+const age = prompt('Enter your age: ');
+var ages = parseInt(age);
+if(ages < 18){
+    alert('You are not allowed to use this application');
+    window.location.href = 'https://www.google.com';
+}
+else{
+    alert('Welcome to the Todo Application');
+}
+document.getElementById('todo-app-heading').innerText += ` - Age: ${age}`;
+</script>
+
+
+    
+</body>
+</html>
